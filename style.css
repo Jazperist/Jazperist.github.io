@@ -1,8 +1,7 @@
-
 /* Universal styles */
 html {
   font-size: 16px;
-  font-family: "Arial", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -27,9 +26,16 @@ h2 {
   text-align: center;
 }
 
+
 a {
   text-decoration: none;
+  cursor: pointer;
 }
+
+a:hover {
+    color: #4d00ff;
+}
+
 
 p {
   max-width: 900px;
@@ -80,5 +86,5 @@ a.home {
 .description {
     padding: 10px 20px;
     font-size: 16px;
-    font-style: italic;
+    font-family: 'Space Mono', monospace;
 }
