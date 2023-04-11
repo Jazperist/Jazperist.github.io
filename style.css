@@ -1,68 +1,84 @@
 
 /* Universal styles */
 html {
-    font-size: 16px;
-    font-family: 'Arial', sans-serif;
-  }
-  
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+}
+
 body {
-    background-color: #F2F2F2;  
-    text-align: center;  
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    font-size: 48;
-    font-weight: bold;
-    text-align: center;
-    color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  font-size: 48;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 h2 {
-    padding: 40px 20px 0 20px;
-    font-size: 24px;
-    text-align: center;
+  padding: 40px 20px 0 20px;
+  font-size: 24px;
+  text-align: center;
 }
-  
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-  
+
 p {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Header */
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px 0;
-    background-color: #fff;
-    font-size: 14px;
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
-  
+
 .header li {
-    display: inline-block;
-    padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
-  
+
 .header a {
-    color: #4A4A4A;
+  color: #4a4a4a;
 }
-  
+
 a.home {
-    color: #4D00FF;
+  color: #4d00ff;
 }
 
 /* Banner */
 .banner {
-    margin-top: 74px;
-    padding: 40px 0 100px 0;
-    background-color: #4D00FF;
-  }
+  margin-top: 74px;
+  padding: 40px 0 100px 0;
+  background-color: #4d00ff;
+}
+
+.banner p {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #ffffff;
+  font-weight: lighter;
+  line-height: 1.4;
+}
+
+.description {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: italic;
+}
