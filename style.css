@@ -1,3 +1,4 @@
+
 /* Universal styles */
 html {
     font-size: 16px;
@@ -11,8 +12,11 @@ body {
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
     font-size: 48;
     font-weight: bold;
+    text-align: center;
+    color: white;
 }
 
 h2 {
@@ -55,3 +59,10 @@ p {
 a.home {
     color: #4D00FF;
 }
+
+/* Banner */
+.banner {
+    margin-top: 74px;
+    padding: 40px 0 100px 0;
+    background-color: #4D00FF;
+  }
