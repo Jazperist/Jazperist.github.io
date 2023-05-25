@@ -95,6 +95,19 @@ a.home {
   color: #4d00ff;
 }
 
+/*-----Icons-----------------------------------*/
+.icons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.fa-brands {
+  align-items: center;
+}
+
+
 /* Banner */
 .banner {
   margin-top: 74px;
