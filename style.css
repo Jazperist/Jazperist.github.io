@@ -32,7 +32,33 @@ a {
   cursor: pointer;
 }
 
-a:hover {
+#about {
+  text-align: justify;
+}
+
+/* -------- Projects ------------*/
+
+.projects {
+  text-align: left;
+  padding: 5em 20em;
+}
+
+.project-title h3 {
+  display: inline;
+  text-align: center;
+}
+
+.project-image {
+  width: 50%;
+}
+
+details {
+  cursor: pointer;
+}
+
+/*----------------------------------*/
+
+li a:hover {
     color: #4d00ff;
 }
 
@@ -41,6 +67,7 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  line-height: 2.5;
 }
 
 /* Header */
@@ -72,7 +99,7 @@ a.home {
 .banner {
   margin-top: 74px;
   padding: 40px 0 100px 0;
-  background-color: #4d00ff;
+  background: linear-gradient(#4d00ff, #c5c3f7);
 }
 
 .banner p {
@@ -87,4 +114,12 @@ a.home {
     padding: 10px 20px;
     font-size: 16px;
     font-family: 'Space Mono', monospace;
+    color: white;
+}
+.contact p {
+    padding: 2px;
+}
+
+footer {
+    padding-top: 50px;
 }
