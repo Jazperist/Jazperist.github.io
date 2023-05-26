@@ -29,9 +29,7 @@ h2 {
 
 a {
   text-decoration: none;
-  text-align: center;
   cursor: pointer;
-  color: #4d00ff;
 }
 
 #about {
@@ -50,8 +48,21 @@ a {
   text-align: center;
 }
 
-.project-image {
-  width: 50%;
+.grid {
+  margin: auto;
+  display: grid;  
+  border: 2px blue solid;  
+  height: 500px;  
+  width:800px;
+  grid-template-columns: repeat(3, 1fr 1fr 1fr) ;
+  grid-template-rows: repeat(3, 1fr 1fr 2fr);
+}
+
+.box {
+  background-color: beige;  
+  color: black;  
+  border-radius: 5px;  
+  border: 2px dodgerblue solid;
 }
 
 details {
