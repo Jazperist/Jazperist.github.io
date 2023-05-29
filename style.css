@@ -150,19 +150,38 @@ footer {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
   
   .header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 5px 0;
     background-color: #fff;
-    font-size: 17px;
-    font-weight: 500;
+    font-weight: 900;
     text-transform: uppercase;
-    text-align: center;
   }
 
-  
+  .header li{
+    margin: auto;
+    font-size: 15px;
+    display: block;
+    padding: 3px;
+  }
+
+  .header ul {
+    padding-inline-start: 0%;
+  }
+
+  .banner {
+    margin-top: 90px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  #projects {
+    margin-top: 50px;
+  }
 }
