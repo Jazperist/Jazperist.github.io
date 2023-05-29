@@ -158,13 +158,11 @@ footer {
     width: 100%;
     padding: 20px 0;
     background-color: #fff;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
   }
 
-  .header {
-    font-size: larger;
-    width: 100%;
-  }
+  
 }
