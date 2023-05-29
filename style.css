@@ -112,6 +112,7 @@ a.home {
 .icons {
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
 }
